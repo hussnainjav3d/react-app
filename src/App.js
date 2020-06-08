@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Dinner from './dinner';
+import Lunch from './lunch';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<hr />
 			<Dinner dishName="Pizza" sweetDish="Gulab Jaman" />
 			<hr />
+			<Lunch />
 		</div>
 	);
 }
